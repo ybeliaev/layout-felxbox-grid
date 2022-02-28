@@ -60,10 +60,12 @@ figure{
     max-height: 400px;
     overflow: hidden;
 }
+/* strange open space at the bottom of the box which shows through the transparent overlay - this kills it */
 figure img{
     width: 100%;
     object-fit: cover;
     object-position: 0 -80px;
+    margin-bottom: -4px;
 }
 figcaption{
     position: absolute;
@@ -115,9 +117,28 @@ figcaption a{
 }
 /* At this breakpoint, transition to 2 figures per line */
 
-@media (min-width: 550px) {}
+@media (min-width: 550px) {
+    section ul {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+    }
+    section li{
+        flex-basis: 49.5%;
+    }
+    figure img{
+        object-position: 0;
+    }
+}
 
 
 /* At this breakpoint, transition to 3 figures per line */
 
-@media (min-width: 800px) {}
+@media (min-width: 800px) {
+    section li {
+        flex-basis: 32.5%;
+    }
+    section h2 {
+        margin-left: 100px;
+    }
+}
