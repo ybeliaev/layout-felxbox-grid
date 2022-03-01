@@ -142,3 +142,32 @@ figcaption a{
         margin-left: 100px;
     }
 }
+/* footer styles */
+
+/* color stretches to 100% of the page width */
+.footer{
+    background-color: var(--color5);    
+}
+footer{
+    display: flex;
+    padding: 3rem;
+    flex-flow: column wrap;
+    justify-content: space-between;
+}
+footer ul{
+    list-style: none;
+    display: flex;
+}
+footer li{
+    margin-right: 1rem;
+}
+footer .social{
+    margin-bottom: 2rem;
+}
+footer address{
+    font-weight: bold;
+    font-style: normal;
+}
+footer h4{
+    margin-bottom: 1.5rem;
+}
