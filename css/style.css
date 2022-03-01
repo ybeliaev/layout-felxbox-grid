@@ -171,3 +171,16 @@ footer address{
 footer h4{
     margin-bottom: 1.5rem;
 }
+@media (min-width:550px) {
+    footer{
+        flex-flow: row wrap;
+    }
+}
+@media (min-width: 800px){
+    footer{
+        justify-content: start;
+    }
+    footer .social {
+        flex-basis: 32.5%;
+    }
+}
