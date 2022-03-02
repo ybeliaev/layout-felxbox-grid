@@ -149,13 +149,12 @@ figcaption a{
 
 header{
     background-color: var(--color5);
-    padding: 1rem;
+    padding: 3rem;
 }
 nav ul{
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
-    /* align-items: space-between; */
 }
 nav li{
     flex-basis: 48%;
@@ -181,7 +180,7 @@ nav a:hover {
     background-color: var(--color1);
     color: var(--color5);
 }
-@media (min-width: 500px){
+@media (min-width: 550px){
     nav a{
         background-color: transparent;
         color: var(--color1);
@@ -193,13 +192,31 @@ nav a:hover {
     }
     nav ul{
         justify-content: center;
-        gap: 1.2rem;
+        gap: 1.2em;
     }
     nav li{
         flex-basis: auto;
+        margin-bottom: 0;
     }
 }
-
+@media(min-width: 800px){
+    nav ul{        
+           flex-flow: row nowrap; 
+    }
+    nav li:first-child {
+        flex-basis: auto;
+        margin: 0 auto;
+        order: 2;
+    }
+    nav li:nth-child(2),
+    nav li:nth-child(3) {
+        order: 1;
+    }
+    nav li:nth-child(4),
+    nav li:nth-child(5) {
+        order: 3;
+    }
+}
 /* footer styles */
 
 /* color stretches to 100% of the page width */
