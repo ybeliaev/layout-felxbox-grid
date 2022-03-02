@@ -175,12 +175,30 @@ nav a{
     text-align: center;
     background-color: var(--color10);
     border-radius: 5px;
+    font-size: 1.3rem;;
 }
 nav a:hover {
     background-color: var(--color1);
     color: var(--color5);
 }
-
+@media (min-width: 500px){
+    nav a{
+        background-color: transparent;
+        color: var(--color1);
+    }
+    nav a:hover {
+        background-color: transparent;
+        color: var(--color5);
+        color: var(--color2);
+    }
+    nav ul{
+        justify-content: center;
+        gap: 1.2rem;
+    }
+    nav li{
+        flex-basis: auto;
+    }
+}
 
 /* footer styles */
 
