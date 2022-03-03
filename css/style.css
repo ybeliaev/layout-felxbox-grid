@@ -146,9 +146,13 @@ figcaption a{
     }
 }
 /* HEDER */
+.header{
+    background-color: var(--color5);
+}
 
 header{
-    background-color: var(--color5);
+    max-width: 1200px;
+    margin: 0 auto;
     padding: 3rem;
 }
 nav ul{
@@ -224,6 +228,8 @@ nav a:hover {
     background-color: var(--color5);    
 }
 footer{
+    max-width: 1200px;
+    margin: 0 auto;
     display: flex;
     padding: 3rem;
     flex-flow: column wrap;
