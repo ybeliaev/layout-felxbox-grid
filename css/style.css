@@ -234,6 +234,16 @@ nav a:hover {
     display: block;
     max-height: 100px;
 }
+@media(min-width:550px){
+    .mission_text {
+        display: flow-root;
+        max-width: 900px;
+    }
+    .mission_img {
+        float: left;
+        shape-outside: polygon(35.84% 94.87%, 34.64% 87.05%, 51.64% 4.06%, 55.1% 2.38%);
+        max-height: 211px;
+}
 
 
 /* footer styles */
