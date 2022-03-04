@@ -222,7 +222,18 @@ nav a:hover {
     }
 }
 /* SECTION MISSION */
-
+#mission{
+    
+    margin-bottom: 3rem;
+}
+.mission_text{
+    display: block;
+    line-height: 1.7;
+}
+.mission_img{
+    display: block;
+    max-height: 100px;
+}
 
 
 /* footer styles */
