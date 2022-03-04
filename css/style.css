@@ -222,8 +222,7 @@ nav a:hover {
     }
 }
 /* SECTION MISSION */
-#mission{
-    
+#mission{    
     margin-bottom: 3rem;
 }
 .mission_text{
@@ -235,10 +234,12 @@ nav a:hover {
     max-height: 100px;
 }
 @media(min-width:550px){
+    /* display: flow-root clears the float!!!! max-width keeps the text line length shorter */
     .mission_text {
         display: flow-root;
         max-width: 900px;
     }
+    /* working with an image with a wide width so we have flexibility to set the shape-outside polygon points where we want. The edges of the image limit their placement. In Firefox, you can draw with shape-outside in browser tools */
     .mission_img {
         float: left;
         shape-outside: polygon(35.84% 94.87%, 34.64% 87.05%, 51.64% 4.06%, 55.1% 2.38%);
