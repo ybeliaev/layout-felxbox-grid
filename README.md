@@ -12,3 +12,5 @@
    > In Firefox, you can draw with shape-outside in browser tools 
    >
    > :exclamation: PNG image specially to work on its transparent area
+5. Responsive Images
+   > https://www.responsivebreakpoints.com/  -  there is the generator for optimal responsive image dimensions

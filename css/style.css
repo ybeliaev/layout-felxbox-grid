@@ -50,6 +50,8 @@ section {
 
 section h2 {
     font-size: 2.5rem;
+    margin-top: 1.8rem;
+    margin-bottom: 1rem;
 }
 
 
@@ -145,7 +147,9 @@ figcaption a{
         margin-left: 100px;
     }
 }
-/* HEDER */
+/* ************* */
+/* ****HEDER**** */
+/* ************* */
 .header{
     background-color: var(--color5);
 }
@@ -221,6 +225,18 @@ nav a:hover {
         order: 3;
     }
 }
+/**********************/
+/* ***SECTION HERO*** */
+/**********************/
+#hero {
+    background-color: var(--color7);
+    text-align: center;
+    max-width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+
 /* SECTION MISSION */
 #mission{    
     margin-bottom: 3rem;
@@ -246,7 +262,15 @@ nav a:hover {
         max-height: 211px;
     }
 }
-
+/**********************/
+/* ***SECTION FEATUER*** */
+/**********************/
+#featured figure {
+    max-height: 650px;
+}
+#featured img {
+    object-position: 0;
+}
 
 /* footer styles */
 
