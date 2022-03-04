@@ -10,4 +10,5 @@
    > flow-root clears the float 
 4. `shape-outside`
    > In Firefox, you can draw with shape-outside in browser tools 
+   >
    > :exclamation: PNG image specially to work on its transparent area
