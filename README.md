@@ -1,7 +1,7 @@
 # Flexbox and grid examples
 ## For Responsive CSS Layouts
 
-### :boom: features flexbox project:
+### :boom: features FLEXBOX project:
 1. `flex-flow `
    > The flex-flow CSS shorthand property specifies the direction of a flex container, as well as its wrapping behavior.
 2. `object-position`
@@ -14,3 +14,4 @@
    > :exclamation: PNG image specially to work on its transparent area
 5. Responsive Images
    > https://www.responsivebreakpoints.com/  -  there is the generator for optimal responsive image dimensions
+### :boom: features GRID project:
