@@ -58,10 +58,12 @@ section h2 {
 /* Initial mobile layout: a series of images stacked on top of each other with the figure caption over the image. */
 figure{
     position: relative;
+    margin: 0 0 0.5rem 0;
+    height: 100%;
     border-width: 10px;
     border-style: solid;    
     border-radius: 5px;
-    margin-bottom: 0.5rem;
+    /* margin-bottom: 0.5rem; */
     max-height: 400px;
     overflow: hidden;
 }
@@ -265,6 +267,25 @@ nav a:hover {
         max-height: 211px;
     }
 }
+/**********************/
+/* ***POPULAR PRINT*** */
+/**********************/
+.stripe {
+    background-color: var(--color2);
+    color: white;
+    padding: 1rem 0 2rem 0;
+}
+@media (min-width: 550px){
+    #popular li:last-child {
+        flex-basis: 100%;
+    }
+}
+@media (min-width: 800px){
+    #popular li:last-child {
+        flex-basis: 32.5%;
+    }
+}
+
 /**********************/
 /* ***SECTION FEATUER*** */
 /**********************/
