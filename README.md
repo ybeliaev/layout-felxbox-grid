@@ -15,3 +15,6 @@
 5. Responsive Images
    > https://www.responsivebreakpoints.com/  -  there is the generator for optimal responsive image dimensions
 ### :boom: features GRID project:
+   > figure is the parent for img and figcaption gets `grid-template-rows: repeat(3, auto);`
+   >img have `grid-row: 1/3;`
+   > figcaption gets `grid-row: 2/3;` NOT `grid-row: 3/3;`
