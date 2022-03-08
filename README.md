@@ -19,3 +19,13 @@
    > figure is the parent for img and figcaption gets `grid-template-rows: repeat(3, auto);`
    >img have `grid-row: 1/3;`
    > figcaption gets `grid-row: 2/3;` NOT `grid-row: 3/3;`
+2. `auto-fill` 
+   > как бы говорит “я автоматически заполню строку таким количеством колонок, как это возможно с учетом заданной ширины”.
+   >
+   >`grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));`
+3. auto-fill vs. auto-fit
+   > with `auto-fill` the element starts at the minimum size
+   >
+   >with `auto-fit` the element starts at the maximum size
+   >
+   >https://codepen.io/rachelandrew/pen/dpYzZq
