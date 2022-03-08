@@ -15,3 +15,5 @@
 5. Responsive Images
    > https://www.responsivebreakpoints.com/  -  there is the generator for optimal responsive image dimensions
 ### :boom: features GRID project:
+1. I can not use positioning
+   > 
