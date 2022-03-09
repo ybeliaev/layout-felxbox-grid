@@ -23,7 +23,7 @@
    > как бы говорит “я автоматически заполню строку таким количеством колонок, как это возможно с учетом заданной ширины”.
    >
    >`grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));`
-3. auto-fill vs. auto-fit
+3. `auto-fill` vs. `auto-fit`
    > with `auto-fill` the element starts at the minimum size
    >
    >with `auto-fit` the element starts at the maximum size
