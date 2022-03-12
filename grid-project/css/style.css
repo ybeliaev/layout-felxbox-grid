@@ -131,3 +131,27 @@ footer address {
   margin-top: 2rem;
   font-weight: bold;
 }
+
+/* ------media queries------ */
+@media (min-width: 550px) {
+  header {
+    padding: 3rem;
+  }
+  header ul {
+    justify-content: center;
+    gap: 1.2em;
+  }
+  header li {
+    flex-basis: auto;
+    margin-bottom: 0;
+  }
+  header a {
+    color: var(--color1);
+    background-color: transparent;
+    padding: 0;
+  }
+  header a:hover {
+    color: var(--color2);
+    background-color: transparent;
+  }
+}
