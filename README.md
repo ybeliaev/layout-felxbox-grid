@@ -31,5 +31,5 @@
    >https://codepen.io/rachelandrew/pen/dpYzZq
 4. `auto` & `1fr`
    > `auto` by content
-   >
+   >https://codepen.io/cssgrid/pen/rMGaBa
    >`1fr` takes up all available space
