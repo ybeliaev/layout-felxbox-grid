@@ -29,3 +29,7 @@
    >with `auto-fit` the element starts at the maximum size
    >
    >https://codepen.io/rachelandrew/pen/dpYzZq
+4. `auto` & `1fr`
+   > `auto` by content
+   >
+   >`1fr` takes up all available space
