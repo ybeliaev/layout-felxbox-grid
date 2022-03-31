@@ -14,6 +14,9 @@
    > :exclamation: PNG image specially to work on its transparent area
 5. Responsive Images
    > https://www.responsivebreakpoints.com/  -  there is the generator for optimal responsive image dimensions
+
+6. `display: inline-flex`
+   > сделает потомков как бы `inline-block`-выми элементами и выровняет по вертикали
 ### :boom: features GRID project:
 1. I can not use positioning
    > figure is the parent for img and figcaption gets `grid-template-rows: repeat(3, auto);`
